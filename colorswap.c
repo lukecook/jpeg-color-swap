@@ -5,7 +5,8 @@
 #include <stdint.h>
 #include <getopt.h>
 #include <math.h>
-#include <libjpeg.h>
+//#include <libjpeg.h>
+#include "/usr/local/opt/jpeg/include/jpeglib.h"
 
 int
 main(int argc, char *argv[]) {
